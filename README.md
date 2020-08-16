@@ -9,5 +9,5 @@ Submit a Pull Request to add feature to it.
 Okta or OAuth integration.
 
 ## Photo/Gif
-![React Hook Login](https://github.com/onePlusHalf/react-hooks-login/tree/master/resources/react-hooks-login.png)
+![React Hook Login](react-hooks-login.png)
 
