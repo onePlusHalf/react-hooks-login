@@ -1,2 +1,11 @@
 # react-hooks-login
-Example to use React hooks in a Login Page
+## What is it ?
+A simple minimalistic beautiful Login Page that uses React Hooks.
+
+## How can i contribute ?
+Submit a Pull Request to add feature to it.
+
+## What is coming next ?
+Okta or OAuth integration.
+
+

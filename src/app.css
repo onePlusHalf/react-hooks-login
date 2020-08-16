@@ -1,0 +1,113 @@
+body{
+    /*background-color: #807b7b;*/
+    background-color: whitesmoke;
+    /*background: rgb(2,0,36);*/
+    /*background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(9,62,121,0.7626400902157738) 7%, rgba(2,0,23,1) 0%);*/
+    /*background: linear-gradient(45deg, lightblue, black, green);*/
+    /*background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);*/
+    /*background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);*/
+
+    box-shadow: 0 6px 10px 13px teal;
+    height: 694px;
+}
+#outer-section {
+    display: flex;
+    flex-direction: row;
+}
+#gola-1, #gola-2, #intro {
+    background-color: whitesmoke;
+
+    /*background-color: #efefef;*/
+    /*background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);*/
+    /*box-shadow: 8px 8px 8px 8px teal;*/
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+
+    padding: 100px;
+    height: 250px;
+    /*box-shadow: none;*/
+    /*border-radius: 50%;*/
+    margin-left: 505px;
+    /*margin-left: 200px;*/
+    margin-top: 150px;
+    /*animation: shadow 5s;*/
+    box-shadow: 0 14px 10px 12px teal;
+}
+
+#intro {
+    border-radius: 0;
+}
+#gola-1:hover, #gola-2:hover, #intro:hover{
+    /*box-shadow: 0 14px 10px 12px teal;*/
+    transform: scale(1.2,1.2);
+}
+
+@keyframes shadow {
+    30% {
+        box-shadow: 0 14px 10px 12px teal;
+    }
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+}
+
+.outer {
+    display: flex;
+    flex-direction: row;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+}
+
+#email, #password {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    border: none;
+    margin-bottom: 15px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0 2px 2px 2px teal;
+    color: white;
+}
+
+button {
+    margin-top: 14px;
+    height: 25px;
+    width: 80px;
+    margin-left: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px 4px teal;
+
+
+}
+button:hover {
+    box-shadow: 1px 1px 1px 1px teal;
+}
+
+button[disabled] {
+    box-shadow: none;
+}
+
+button[id=login-button] {
+    color: black;
+    width: 120px;
+    height: 37px;
+    margin-left: 60px;
+    background-color: white;
+}
+
+input:first-child{
+    margin-top: 11vh;
+}
