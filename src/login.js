@@ -62,10 +62,11 @@ export default function Login() {
 
     return (<section id='outer-section' onMouseOver={updateCss} onMouseOut={updateCss}>
         {isLoggedIn ? <Home/> : <div id="gola-1">
+            <h2>Login</h2>
             <form onSubmit={checkLogin}>
                 <input type="text" placeholder="Email Address" onChange={updateUsername}/>
                 <input type="password" placeholder="Password" onChange={updatePassword}/>
-                <input type="submit" id="login-button" onClick={checkLogin}/>
+                <input type="submit" id="login-button" onClick={checkLogin} value="Login"/>
             </form>
         </div>}
         {/*<hr/>*/}

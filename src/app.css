@@ -30,7 +30,7 @@ body{
     margin-top: 17vh;
     /* animation: shadow 5s; */
     box-shadow: 0 14px 10px 12px teal;
-    height: 36vh;
+    height: 47vh;
 }
 
 #intro {
@@ -72,7 +72,7 @@ input {
     border: none;
     /*margin-bottom: 13%;*/
     height: 25px;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     background-color: black;
     box-shadow: 0 2px 2px 2px teal;
     color: white;
@@ -110,11 +110,16 @@ button[id=login-button] {
 }
 
 input:first-child{
-    margin-top: 16%;
+    margin-top: 4%;
 }
 
 input[type='submit'] {
     margin-left: 10%;
     width: 80%;
     margin-top: 13%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5vh;
 }
