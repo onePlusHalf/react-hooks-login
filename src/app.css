@@ -1,14 +1,14 @@
 body{
     /*background-color: #807b7b;*/
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
     /*background: rgb(2,0,36);*/
-    /*background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(9,62,121,0.7626400902157738) 7%, rgba(2,0,23,1) 0%);*/
-    /*background: linear-gradient(45deg, lightblue, black, green);*/
+    /*background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(9,62,121,0.7626400902157738) 70%, rgba(2,0,23,1) 90%);*/
+    background: linear-gradient(45deg, teal 25%, hotpink 75%, orangered);
     /*background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);*/
     /*background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);*/
 
     box-shadow: 0 6px 10px 13px teal;
-    height: 694px;
+    height: 97vh;
 }
 #outer-section {
     display: flex;
@@ -16,23 +16,21 @@ body{
 }
 #gola-1, #gola-2, #intro {
     background-color: whitesmoke;
-
-    /*background-color: #efefef;*/
-    /*background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);*/
-    /*box-shadow: 8px 8px 8px 8px teal;*/
+    /* background-color: #efefef; */
+    /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+    /* box-shadow: 8px 8px 8px 8px teal; */
     display: flex;
     flex-direction: column;
-    width: 250px;
-
-    padding: 100px;
-    height: 250px;
-    /*box-shadow: none;*/
-    /*border-radius: 50%;*/
-    margin-left: 505px;
-    /*margin-left: 200px;*/
-    margin-top: 150px;
-    /*animation: shadow 5s;*/
+    width: 23%;
+    /* padding: 100px; */
+    /* box-shadow: none; */
+    /* border-radius: 50%; */
+    margin-left: 36%;
+    /* margin-left: 200px; */
+    margin-top: 17vh;
+    /* animation: shadow 5s; */
     box-shadow: 0 14px 10px 12px teal;
+    height: 36vh;
 }
 
 #intro {
@@ -72,12 +70,15 @@ img{
 
 input {
     border: none;
-    margin-bottom: 15px;
+    /*margin-bottom: 13%;*/
     height: 25px;
     border-radius: 5px;
     background-color: black;
     box-shadow: 0 2px 2px 2px teal;
     color: white;
+    margin-left: 27%;
+    width: 45%;
+    margin-bottom: 5%;
 }
 
 button {
@@ -109,5 +110,11 @@ button[id=login-button] {
 }
 
 input:first-child{
-    margin-top: 11vh;
+    margin-top: 16%;
+}
+
+input[type='submit'] {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 13%;
 }
