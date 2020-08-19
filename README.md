@@ -10,4 +10,5 @@ Okta or OAuth integration.
 
 ## Photo/Gif
 ![React Hook Login](react-hooks-login.png)
+![React Hook Other Login](React-Hooks-Other-Login.png)
 
